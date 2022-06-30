@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
@@ -11,23 +12,32 @@
 
     <!-- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
     <header>
-        <!-- BOTÓN DE HOME EN LOGO  -------------------------------------------------------------------------------- -->
-        <div>
-            <a href="../index.html"><img src="../images/logo.jpg" alt="PX Works" height=80px"></a>
-            <h1>PX Works</h1>
-        </div>
-        
+
         <!-- MENÚ DE NAV  -------------------------------------------------------------------------------- -->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./templates.html">Edición</a></li>
-                <li><a href="./examples-montajes.html">Montajes</a></li>
-                <li><a href="./examples-stream.html">Streaming</a></li>
-                <li><a href="./examples-rrss.html">Trabajo en RRSS</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: blueviolet; color: white;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="PX Works" height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="./templates.html">Edición</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./examples-montajes.html">Montajes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./examples-stream.html">Streaming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./examples-rrss.html">RRSS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>    
 
 
@@ -108,5 +118,6 @@
         </section>
     </footer>
 
+    <script src="./js/bootstrap.js"></script>
 </body>
 </html>
