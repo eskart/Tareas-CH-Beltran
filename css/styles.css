@@ -4,6 +4,16 @@ body{
     background: linear-gradient(black, purple);
 }
 
+main{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
 /* HEADER  --------------------------------------------------------------------*/
 /*
 header{
@@ -48,26 +58,26 @@ nav ul li{
 }
 */
 /* MAIN -------------------------------------------------------------------- */
-main{
+/*main{
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
-}
-main section{
+}*/
+/*main section{
     margin:10px
 }
 main h2{
     text-align: center;
 }
-main p{
+/*main p{
     text-align: center;
     width: 450px;
     margin: auto;
-}
+}*/
 
 /* FOOTER  -------------------------------------------------------------------- */
 footer{
-    background-color: aqua;
+    background-color: blueviolet;
     border: 3px black;
     padding: 1rem;
     display: flex;
@@ -89,7 +99,7 @@ footer p{
 /* SECCIÓN DE PROPIEDADES PARTICULARES POR PÁGINA ------------------------------------------------------------ */
 
 /* PÁGINAS CON ARTÍCULOS  -------------------------------------------------------------------- */
-main article{
+/*main article{
     margin:10px
 }
 #titulo-ejemplos{
@@ -103,10 +113,10 @@ article p{
     width: 450px;
     margin: auto;
 }
-
+*/
 
 /* SITIO DE TEMPLATES  -------------------------------------------------------------------- */
-main #edicion{
+/*main #edicion{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
