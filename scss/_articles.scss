@@ -1,0 +1,22 @@
+/* PÁGINAS CON ARTÍCULOS  -------------------------------------------------------------------- */
+
+main{
+    article{
+        margin:10px;
+    }
+
+    p{
+        text-align: center;
+        width: 450px;
+        margin: auto;
+    }
+
+    /* Animación de imagenes  ---*/
+    a img:hover{
+        box-shadow: 0px 0px 10px 5px white;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+    }
+}
+
+

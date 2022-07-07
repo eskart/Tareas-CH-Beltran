@@ -1,0 +1,29 @@
+/* SITIO DE TEMPLATES  -------------------------------------------------------------------- */
+
+main{
+    #edicion{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;        
+    }
+
+    #filtros{
+        width:200px;
+    }
+}
+
+#plantillas{
+    width:80vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    a{
+        margin:20px 
+    }
+
+    h2{
+        text-align: center;
+        width: 80vw;
+    }
+}

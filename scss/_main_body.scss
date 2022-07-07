@@ -1,0 +1,28 @@
+/* MAIN -------------------------------------------------------------------- */
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    section{
+        margin:10px
+    }
+
+    p{
+        text-align: center;
+        width: 450px;
+        margin: auto;
+        color:white;
+    }
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white; 
+}
